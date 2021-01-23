@@ -1,0 +1,20 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/db
+    username: user
+    password: password
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+interview:
+  agileengine:
+    base-url: http://interview.agileengine.com
+    api-key: 23567b218376f79d9415
+    token:
+      fixed-rate: 360000
+    fetch-data:
+      fixed-rate: 720000
+server:
+  port: 8081
